@@ -10,6 +10,9 @@
 		13A7FEE03459AE0E5787D3D3 /* Pods_PushNotificationAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0ACF2E432A78C6E6B8A42C /* Pods_PushNotificationAppTests.framework */; };
 		51E167092C85E82F7A59F704 /* Pods_PushNotificationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAF6F5489D04D069AA7EC42 /* Pods_PushNotificationApp.framework */; };
 		F955AF2E24E15CC400B7B5B7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F955AF2D24E15CC400B7B5B7 /* .gitignore */; };
+		F955AF3024E56A0300B7B5B7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955AF2F24E56A0300B7B5B7 /* Login.storyboard */; };
+		F955AF3124E56A0300B7B5B7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955AF2F24E56A0300B7B5B7 /* Login.storyboard */; };
+		F955AF3224E56A0300B7B5B7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955AF2F24E56A0300B7B5B7 /* Login.storyboard */; };
 		F9BA9D8324E14E960049B202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA9D8224E14E960049B202 /* AppDelegate.swift */; };
 		F9BA9D8524E14E960049B202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA9D8424E14E960049B202 /* ViewController.swift */; };
 		F9BA9D8824E14E960049B202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BA9D8624E14E960049B202 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 		F9BA9DA624E14E9A0049B202 /* PushNotificationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA9DA524E14E9A0049B202 /* PushNotificationAppUITests.swift */; };
 		F9BA9DB424E152A50049B202 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9BA9DB324E152A50049B202 /* GoogleService-Info.plist */; };
 		F9BA9DB624E1530F0049B202 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F9BA9DB524E1530F0049B202 /* Podfile */; };
+		F9C993E124E575BC00CEA515 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C993E024E575BC00CEA515 /* LoginViewController.swift */; };
+		F9C993E224E575BC00CEA515 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C993E024E575BC00CEA515 /* LoginViewController.swift */; };
+		F9C993E324E575BC00CEA515 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C993E024E575BC00CEA515 /* LoginViewController.swift */; };
 		FBC20CF5C1D3CF3A8E2868E5 /* Pods_PushNotificationApp_PushNotificationAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4FA387979CD4C3CB97552E /* Pods_PushNotificationApp_PushNotificationAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +56,7 @@
 		BA9258E9C38DE087F0FDA848 /* Pods-PushNotificationApp-PushNotificationAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationApp-PushNotificationAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PushNotificationApp-PushNotificationAppUITests/Pods-PushNotificationApp-PushNotificationAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D75F82E041540B1C04971ABD /* Pods-PushNotificationApp-PushNotificationAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationApp-PushNotificationAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotificationApp-PushNotificationAppUITests/Pods-PushNotificationApp-PushNotificationAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F955AF2D24E15CC400B7B5B7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F955AF2F24E56A0300B7B5B7 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F9BA9D7F24E14E960049B202 /* PushNotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BA9D8224E14E960049B202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9BA9D8424E14E960049B202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +72,8 @@
 		F9BA9DA524E14E9A0049B202 /* PushNotificationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationAppUITests.swift; sourceTree = "<group>"; };
 		F9BA9DA724E14E9A0049B202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BA9DB324E152A50049B202 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F9BA9DB524E1530F0049B202 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../../ios/PushNotificationApp/Podfile; sourceTree = "<group>"; };
+		F9BA9DB524E1530F0049B202 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../../ios/PushNotificationApp/Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9C993E024E575BC00CEA515 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAAF6F5489D04D069AA7EC42 /* Pods_PushNotificationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,6 +128,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F955AF3324E56B3400B7B5B7 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F955AF2F24E56A0300B7B5B7 /* Login.storyboard */,
+				F9C993E024E575BC00CEA515 /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		F9BA9D7624E14E960049B202 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +164,7 @@
 		F9BA9D8124E14E960049B202 /* PushNotificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				F955AF3324E56B3400B7B5B7 /* login */,
 				F9BA9D8224E14E960049B202 /* AppDelegate.swift */,
 				F9BA9D8424E14E960049B202 /* ViewController.swift */,
 				F9BA9D8624E14E960049B202 /* Main.storyboard */,
@@ -288,6 +306,7 @@
 			files = (
 				F9BA9DB624E1530F0049B202 /* Podfile in Resources */,
 				F9BA9D9024E14E990049B202 /* LaunchScreen.storyboard in Resources */,
+				F955AF3024E56A0300B7B5B7 /* Login.storyboard in Resources */,
 				F9BA9DB424E152A50049B202 /* GoogleService-Info.plist in Resources */,
 				F9BA9D8D24E14E990049B202 /* Assets.xcassets in Resources */,
 				F955AF2E24E15CC400B7B5B7 /* .gitignore in Resources */,
@@ -299,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F955AF3124E56A0300B7B5B7 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F955AF3224E56A0300B7B5B7 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C993E124E575BC00CEA515 /* LoginViewController.swift in Sources */,
 				F9BA9D8B24E14E960049B202 /* PushNotificationApp.xcdatamodeld in Sources */,
 				F9BA9D8524E14E960049B202 /* ViewController.swift in Sources */,
 				F9BA9D8324E14E960049B202 /* AppDelegate.swift in Sources */,
@@ -429,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C993E224E575BC00CEA515 /* LoginViewController.swift in Sources */,
 				F9BA9D9B24E14E9A0049B202 /* PushNotificationAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C993E324E575BC00CEA515 /* LoginViewController.swift in Sources */,
 				F9BA9DA624E14E9A0049B202 /* PushNotificationAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +624,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34C5R8J43A;
 				INFOPLIST_FILE = PushNotificationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -619,6 +644,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34C5R8J43A;
 				INFOPLIST_FILE = PushNotificationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
